@@ -1,0 +1,26 @@
+
+production:
+  adapter: sqlserver
+  mode: odbc
+  host: 192.168.2.200
+  dsn: inventory_management_dev
+  username: sunil.kumar
+  password: sunil
+  encoding: utf8
+
+development:
+  adapter: sqlserver
+  dsn: inventory_management_dev
+  mode: odbc
+  username: sunil.kumar
+  password: sunil
+
+test:
+  adapter: sqlserver
+  mode: odbc
+  host: 192.168.2.200
+  dsn: inventory_management_dev
+  database: Inventory_Management_Test
+  username: sunil.kumar
+  password: sunil
+  encoding: utf8
